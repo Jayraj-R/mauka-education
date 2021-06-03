@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/mauka-education/static/css/main.b4f819fb.chunk.css",
+    "main.js": "/mauka-education/static/js/main.ef481f6c.chunk.js",
+    "main.js.map": "/mauka-education/static/js/main.ef481f6c.chunk.js.map",
+    "runtime-main.js": "/mauka-education/static/js/runtime-main.b760e47f.js",
+    "runtime-main.js.map": "/mauka-education/static/js/runtime-main.b760e47f.js.map",
+    "static/css/2.ec02d681.chunk.css": "/mauka-education/static/css/2.ec02d681.chunk.css",
+    "static/js/2.bf22e8d1.chunk.js": "/mauka-education/static/js/2.bf22e8d1.chunk.js",
+    "static/js/2.bf22e8d1.chunk.js.map": "/mauka-education/static/js/2.bf22e8d1.chunk.js.map",
+    "static/js/3.1181b79c.chunk.js": "/mauka-education/static/js/3.1181b79c.chunk.js",
+    "static/js/3.1181b79c.chunk.js.map": "/mauka-education/static/js/3.1181b79c.chunk.js.map",
+    "index.html": "/mauka-education/index.html",
+    "static/css/2.ec02d681.chunk.css.map": "/mauka-education/static/css/2.ec02d681.chunk.css.map",
+    "static/css/main.b4f819fb.chunk.css.map": "/mauka-education/static/css/main.b4f819fb.chunk.css.map",
+    "static/js/2.bf22e8d1.chunk.js.LICENSE.txt": "/mauka-education/static/js/2.bf22e8d1.chunk.js.LICENSE.txt",
+    "static/media/cohort.ffcc48d9.png": "/mauka-education/static/media/cohort.ffcc48d9.png",
+    "static/media/door-gif.0915707c.gif": "/mauka-education/static/media/door-gif.0915707c.gif",
+    "static/media/main-illus.e1941611.png": "/mauka-education/static/media/main-illus.e1941611.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b760e47f.js",
+    "static/css/2.ec02d681.chunk.css",
+    "static/js/2.bf22e8d1.chunk.js",
+    "static/css/main.b4f819fb.chunk.css",
+    "static/js/main.ef481f6c.chunk.js"
+  ]
+}
