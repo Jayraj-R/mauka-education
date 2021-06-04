@@ -1,6 +1,6 @@
 # Mauka Education
 
-[View Site]
+[View Site](https://jayraj-r.github.io/mauka-education/)
 
 A cloned website of [Mauka Education](https://maukaeducation.com) for interview purpose only.
 
