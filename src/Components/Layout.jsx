@@ -43,6 +43,12 @@ const Layout = () => {
             <section>
                 <Cohort/>
             </section>
+
+            {/* Cohort Section */}
+            <section>
+                <Modules/>
+            </section>
+            
             
         </ThemeProvider>
     )

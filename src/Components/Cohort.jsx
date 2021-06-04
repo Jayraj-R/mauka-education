@@ -13,7 +13,7 @@ const useStyles = makeStyles({
     root:{
         height:"86vh",
         background: "#f6f9fe",
-        padding: "60px 0",
+        padding: "0px 0",
         overflow: "hidden",
     },
     headerSection:{
@@ -63,14 +63,14 @@ const Cohort = () => {
     const classes = useStyles();
     return (
         <div className={classes.root} >
-            <Grid xs={12} data-aos="fade-up" data-aos-duration={600} className={classes.root}  container justify="center" >
+            <Grid xs={12} data-aos="fade-up" data-aos-duration={600}  data-aos-delay="200" className={classes.root}  container justify="center" >
                 <Grid xs={12} item className={classes.headerSection} container justify="center" gutterBottom>
                     <Typography variant="h6" className={classes.header} gutterBottom>
                         Cohort Details
                     </Typography>
                 </Grid>
                 
-                <Grid data-aos="zoom-out" data-aos-duration={600} xs={12} md={5} className={classes.imgSection} item container justify="center"  alignContent="center" >
+                <Grid data-aos="zoom-out" data-aos-duration={600}  data-aos-delay="200" xs={12} md={5} className={classes.imgSection} item container justify="center"  alignContent="center" >
                     <img className={classes.cohort} src={cohort} alt="cohort"/>
                 </Grid>
 

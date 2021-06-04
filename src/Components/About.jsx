@@ -55,14 +55,14 @@ const About = () => {
     const classes = useStyles();
     return (
         <div  className={classes.root}>
-            <Grid xs={12} data-aos="fade-up" data-aos-duration={600} className={classes.root} container justify="center" >
+            <Grid xs={12} data-aos="fade-up" data-aos-duration={600}  data-aos-delay="200" className={classes.root} container justify="center" >
                 <Grid xs={12} item className={classes.headerSection} container justify="center" gutterBottom>
                     <Typography variant="h6" className={classes.header} gutterBottom>
                         About Mauka
                     </Typography>
                 </Grid>
                 
-                <Grid data-aos="fade-up" data-aos-duration={600} xs={12} md={5} className={classes.textSection} container alignContent="center" >
+                <Grid data-aos="fade-up" data-aos-duration={600}  data-aos-delay="200" xs={12} md={5} className={classes.textSection} container alignContent="center" >
                     <Typography variant="h5" color="primary" gutterBottom style={{marginBottom:"1em",lineHeight:"1.4em"}}>
                         At Mauka, we believe there is always room to grow — for you and for us.
                     </Typography>
@@ -72,7 +72,7 @@ const About = () => {
                     </Typography>
                 </Grid>
 
-                <Grid data-aos="zoom-out" data-aos-duration={600} xs={12} md={5} className={classes.gifSection} item container justify="left" >
+                <Grid data-aos="zoom-out" data-aos-duration={600}  data-aos-delay="200" xs={12} md={5} className={classes.gifSection} item container justify="left" >
                     <img className={classes.gif} src={gif} alt="Go beyound the clouds"/>
                 </Grid>
             </Grid>

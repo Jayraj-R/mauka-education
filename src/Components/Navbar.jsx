@@ -3,18 +3,16 @@ import {
   AppBar,
   Toolbar,
   Container,
-  Button,
   Hidden,
   Grid,
   Typography
 } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core";
-import Sidebar from "./Sidebar";
 import logo from '../media/logo.png'
 
 const useStyles = makeStyles({
   navbar:{
-    padding: "12px",
+    padding: "12px"
   },
   logo:{
     maxWidth:"60px",
@@ -22,11 +20,14 @@ const useStyles = makeStyles({
   },
   navbarDisplayFlex: {
     display: `flex`,
-    justifyContent: `space-around`,
+    justifyContent: `space-between`,
     alignItems:"center",
-    padding:0,
+    padding:"0 12.5%",
     margin:0,
-    height:"auto"
+    height:"auto",
+    '@media only screen and (max-device-width : 767px)': { 
+      padding:"0 2%",
+    }
   },
   navbarButton:{
     display:"flex"
@@ -44,7 +45,7 @@ const useStyles = makeStyles({
       '& span':{
         visibility:"visible",
         opacity:1,
-        transform:"translate(-15%,10%)",
+        transform:"translate(-15%,5%)",
       }
     }
   },
@@ -73,9 +74,6 @@ const useStyles = makeStyles({
   },
   dropDown:{
     position:"relative",
-    '&:hover':{
-      
-    }
   },
   dropDownMenu:{
     display: 'block',
@@ -159,9 +157,9 @@ const Navbar = () => {
     
   return (
         
-        <AppBar position="fixed">
+        <AppBar position="fixed"  style={{boxShadow: "0px 2px 15px rgba(0, 0, 0, 0.1)"}}>
             
-            <Toolbar className={classes.navbar} style={{boxShadow: "0px 0px 0px rgba(0, 0, 0, 0)"}}>
+            <Toolbar className={classes.navbar} >
                 
                 <Container maxWidth="xl" className={classes.navbarDisplayFlex}>
                     <a  href="#start" className={classes.links}>
@@ -215,9 +213,9 @@ const Navbar = () => {
                    </Grid>
                 </Hidden>
                 
-                <Hidden mdUp>
+                {/* <Hidden mdUp>
                     <Sidebar />
-                </Hidden>
+                </Hidden> */}
                 
                 </Container>
             </Toolbar>
