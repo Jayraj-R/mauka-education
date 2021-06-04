@@ -1,6 +1,6 @@
 # Mauka Education
 
-[View Site](https://jayraj-r.github.io/mauka-education/)
+[View Site](https://jayraj-r.github.io/mauka-education/) for 14.5" screen currently.
 
 A cloned website of [Mauka Education](https://maukaeducation.com) for interview purpose only.
 
