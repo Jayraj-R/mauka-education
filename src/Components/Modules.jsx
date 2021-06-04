@@ -12,14 +12,14 @@ AOS.init();
 
 const useStyles = makeStyles({
     root:{
-        height:"86vh",
+        height:"110vh",
         paddingTop: "100px",
         overflow: "hidden",
     },
     headerSection:{
         display:"block",
         marginBottom:"2.5em",
-        marginTop:"-35px"
+        marginTop:"-20px"
     },
     header:{
         position:"relative",

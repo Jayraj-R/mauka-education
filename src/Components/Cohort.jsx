@@ -12,19 +12,19 @@ AOS.init();
 const useStyles = makeStyles({
     root:{
         height:"86vh",
-        background: "#f6f9fe",
-        padding: "0px 0",
         overflow: "hidden",
+        paddingTop:24,
+        background:"#F6F9FE"
     },
     headerSection:{
         textAlign: "center",
         height:"1em",
     },
     header:{
-        fontSize:"1.3em",
+        fontSize:"1.4em",
         letterSpacing: "1px",
         fontWeight: 700,
-        padding: "5px 20px",
+        padding: "4px 20px",
         margin: 0,
         background: "#e4e5e7a6",
         color: "#062b5b",
@@ -33,8 +33,8 @@ const useStyles = makeStyles({
     },
     imgSection:{
         position:"relative",
-        top:"5.5%",
-        left:"-2%",
+        top:-40,
+        left:-30,
     },
     cohort:{
         height: 249,
@@ -45,7 +45,7 @@ const useStyles = makeStyles({
         textAlign:"left",
         position:"relative",
         left:"-3%",
-        top:"4%"
+        top:-25
     },
     icons:{
         background: "#fff",

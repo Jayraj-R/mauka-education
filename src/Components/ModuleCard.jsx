@@ -32,7 +32,9 @@ const useStyles = makeStyles({
         position:"relative",
         fontSize: 60,
         color:"#0A1E32",
-        transition: "color 0.3s ease-in-out"
+        transition: "color 0.3s ease-in-out",
+        cursor: "pointer",
+        width:"40%"
     },
     title:{
         zIndex:2,
@@ -86,22 +88,22 @@ const ModuleCard = (props) => {
     const Icons=()=>{
         if(props.id===1){
             return (
-                <i class='bx bx-conversation'></i>
+                <i class='tada bx bx-conversation'></i>
             );
         }
         if(props.id===2){
             return (
-                <i class='bx bx-group' ></i>
+                <i class='tada bx bx-group' ></i>
             );
         }
         if(props.id===3){
             return (
-                <i class='bx bx-trending-up' ></i>
+                <i class='tada bx bx-trending-up' ></i>
             );
         }
         if(props.id===4){
             return (
-                <i class='bx bx-brush' ></i>
+                <i class='tada bx bx-brush' ></i>
             );
         }
         return(

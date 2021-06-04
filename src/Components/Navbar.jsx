@@ -12,7 +12,7 @@ import logo from '../media/logo.png'
 
 const useStyles = makeStyles({
   navbar:{
-    padding: "12px"
+    padding: "12px",
   },
   logo:{
     maxWidth:"60px",
@@ -22,11 +22,14 @@ const useStyles = makeStyles({
     display: `flex`,
     justifyContent: `space-between`,
     alignItems:"center",
-    padding:"0 12.5%",
+    padding:"0 180px",
     margin:0,
     height:"auto",
-    '@media only screen and (max-device-width : 767px)': { 
-      padding:"0 2%",
+    '@media only screen and (max-device-width : 1280px)': { 
+      padding:"0 65px",
+    },
+    '@media only screen and (max-device-width : 1440px)': { 
+      padding:"0 12%",
     }
   },
   navbarButton:{
@@ -45,9 +48,26 @@ const useStyles = makeStyles({
       '& span':{
         visibility:"visible",
         opacity:1,
-        transform:"translate(-15%,5%)",
+        transform:"translate(-15%,10%)",
+        '@media only screen and (max-device-width : 1280px)': { 
+          transform:"translate(-15%,15%)",
+        },
+        '@media only screen and (max-device-width : 1440px)': { 
+          
+        }
       }
     }
+  },
+  dropDownMenu:{
+    display: 'block',
+    background:"#0A1E32",
+    position:"absolute",
+    transform:"translate(-15%,45%)",
+    color:"#f7f7f7",
+    padding:"12px 0px",
+    transition:"opacity 0.3s ease-in, transform 0.3s ease-in",
+    visibility:"hidden",
+    opacity:0,
   },
   underline:{
     position:"relative",
@@ -62,29 +82,18 @@ const useStyles = makeStyles({
     textDecoration: "none",
     padding:0,
     margin:0,
-    height:"auto"
+    height:"auto",
   },
   text:{
     fontSize: "15px",
     fontWeight: "600",
     fontFamily: '"Open Sans", sans-serif',
-    textTransform: "capitalize",
-    padding: "10px 0 10px 28px"
+    padding: "10px 0 10px 33px",
+    textTransform:"none"
 
   },
   dropDown:{
     position:"relative",
-  },
-  dropDownMenu:{
-    display: 'block',
-    background:"#0A1E32",
-    position:"absolute",
-    transform:"translate(-15%,45%)",
-    color:"#f7f7f7",
-    padding:"12px 0px",
-    transition:"opacity 0.3s ease-in, transform 0.3s ease-in",
-    visibility:"hidden",
-    opacity:0,
   },
   modules:{
     fontWeight:"500",
