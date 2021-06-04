@@ -8,5 +8,6 @@ This project was bootstrapped with React.Js and [Create React App](https://githu
 It has been stylised using [material-ui](https://material-ui.com/)
 
 External Dependencies used are:
-    - Material-ui for stylysing and formatting.
-    - aos for Scroll animations.
+- Material-ui for stylysing and formatting.
+- aos for Scroll animations.
+- Bx-icons for icons
