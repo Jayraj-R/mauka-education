@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mauka-education/static/css/main.b4f819fb.chunk.css",
-    "main.js": "/mauka-education/static/js/main.ce9afff4.chunk.js",
-    "main.js.map": "/mauka-education/static/js/main.ce9afff4.chunk.js.map",
+    "main.js": "/mauka-education/static/js/main.854b8b26.chunk.js",
+    "main.js.map": "/mauka-education/static/js/main.854b8b26.chunk.js.map",
     "runtime-main.js": "/mauka-education/static/js/runtime-main.c6f6eb10.js",
     "runtime-main.js.map": "/mauka-education/static/js/runtime-main.c6f6eb10.js.map",
     "static/css/2.ec02d681.chunk.css": "/mauka-education/static/css/2.ec02d681.chunk.css",
@@ -23,6 +23,6 @@
     "static/css/2.ec02d681.chunk.css",
     "static/js/2.822810ba.chunk.js",
     "static/css/main.b4f819fb.chunk.css",
-    "static/js/main.ce9afff4.chunk.js"
+    "static/js/main.854b8b26.chunk.js"
   ]
 }
