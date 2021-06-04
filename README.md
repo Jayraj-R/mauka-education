@@ -9,5 +9,5 @@ It has been stylised using [material-ui](https://material-ui.com/)
 
 External Dependencies used are:
 - Material-ui for stylysing and formatting.
-- aos for Scroll animations.
-- Bx-icons for icons
+- [aos](https://www.npmjs.com/package/aos) for Scroll animations.
+- [Box-icons](https://boxicons.com/) for icons
